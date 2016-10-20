@@ -10,6 +10,7 @@
     <meta name="author" content="">
 
     <title>Hideya "Bonz" Satoh's Offical Site</title>
+    <title class="japanese">ボンズサックスへ様こそ</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -41,7 +42,9 @@
                     Menu <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <!--<i class="fa fa-play-circle"></i> --><span class="light">Start</span>
+                    <!--<i class="fa fa-play-circle"></i> --><span class="light" id="english">English</span>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <!--<i class="fa fa-play-circle"></i> --><span class="light" id="japanese">日本語</span>
 
                 </a>
             </div>
@@ -94,23 +97,36 @@
                 <h2>About Bonz</h2>
                 <img src="img/profilepic.jpg"></img>
             </br>
-            </br>   
-                <p>Hideya "Bonz" Satoh was born in Hokkaido, Japan on November 6th, 1959.  He received lessons on the organ from the ages of 4 to 12, and discovered Jazz at the age of 11 while listening to the FM radio.</p>
-        <p>At the age of 18, he picked up the saxophone without any formal training, and moved to Chiba to attend the Chiba Institute of Technology.  By the age of 19, he was playing in Jazz clubs in the Tokyo and Chiba area.</p>
-        <p>In 1983, upon receiving a scholarship from the Berklee College of Music, Bonz decided to go abroad and study in Boston for a semester.  Because his scholarship was extended, he ended up staying until 1986.</p>
-        <p>At Berklee, he studied under Andy McGee, Jimmy Mosher, Bill Pierce, George Garzone, Herb Pomeroy, And John LaPorta.  In addition, he played and jammed with many fine musicians in Boston.</p>
-        <p>Bonz however, is not EXCLUSIVELY a "jazz musician".  His repetoire spans many genres of music, and according to Frrank Wilkins, he was "...one of the most versatile sax players in Boston."  After 20 years as a fulltime freelance musician in Boston, Bonz made his move to New York.  His New York debut was a gig at the Historical Lennox Lounge Zebra Room.</p>
-            </div>
+            </br> 
+                <div class="english">
+                    <p>Hideya "Bonz" Satoh was born in Hokkaido, Japan on November 6th, 1959.  He received lessons on the organ from the ages of 4 to 12, and discovered Jazz at the age of 11 while listening to the FM radio.</p>
+                    <p>At the age of 18, he picked up the saxophone without any formal training, and moved to Chiba to attend the Chiba Institute of Technology.  By the age of 19, he was playing in Jazz clubs in the Tokyo and Chiba area.</p>
+                    <p>In 1983, upon receiving a scholarship from the Berklee College of Music, Bonz decided to go abroad and study in Boston for a semester.  Because his scholarship was extended, he ended up staying until 1986.</p>
+                    <p>At Berklee, he studied under Andy McGee, Jimmy Mosher, Bill Pierce, George Garzone, Herb Pomeroy, And John LaPorta.  In addition, he played and jammed with many fine musicians in Boston.</p>
+                    <p>Bonz however, is not EXCLUSIVELY a "jazz musician".  His repetoire spans many genres of music, and according to Frrank Wilkins, he was "...one of the most versatile sax players in Boston."  After 20 years as a fulltime freelance musician in Boston, Bonz made his move to New York.  His New York debut was a gig at the Historical Lennox Lounge Zebra Room.</p>
+                </div>
+                <div class="japanese">
+                    <p>本名：佐藤秀也(サトウヒデヤ)。1959年（昭和34年）11月6日北海道帯広生まれ。札幌、大麻育ち。4歳から12歳迄オルガン、エレクトーンのレッスンを受ける。11歳の時にFMから流れるジャズを聞きジャズと出会う。</p>
+                    <p>18歳でアルトサックスを独学で初め、千葉工業大学へ入学し千葉県へ引越し。
+                    19歳の頃から東京、千葉のジャズクラブで演奏を始める。
+                    その際、全く同じ楽器で同じくバークリー出身の佐藤秀也(サトウシュウヤ)さんの存在を知り、あだ名のBonzを使用し始める。</p>
+                    <p>1983年にボストンのバークリー音楽大学からの奨学金を得て１学期のみ通学する予定がそれ以上の滞在となってしまう。86年迄奨学金を受ける。</p>
+                    <p>バークリーではアンディー･マギー、ジミー・モッシャー、ビル・ピアス、ジョージ･ガゾーン、ハーブ・ポメロイ、ジョン・ラポルタ等に師事。
+                    ボストンでは数多くのミュージシャン達と共演した。</p>
+                    <p>ボストンではジャズ以外にも多岐にわたる音楽をプレイし、フランク・ウィルキンスにはボストンで一番多芸多才のサックス吹きと呼ばれた。2003年迄フリーランスのフルタイムミュージシャンとして活躍。2003年に20年間住んだBostonを離れニューヨークへ移住し、再度フリーランス・ミュージシャンとして活動中。ニューヨークへ移住して最初の仕事は歴史的なレノックス・ラウンジのゼブラ・ルームだった。</p>
+
+                </div>
         </div>
     </section>
 
-    <!-- Download Section -->
+    <!-- Listen Section -->
     <section id="listen" class="content-section text-center">
         <div class="listen-section">
-            <div class="container">
+            <div class="container" id="fadeOut">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Listen to Bonz</h2>
-                    <p>Click to hear a sample of one of his live jazz recordings.</p>
+                    <p class="english">Click to hear a sample of one of his live jazz recordings.</p>
+                    <p class="japanese">ジャズライブ録音</p>
                     <audio id="sound1" src="http://bonzsax.com/BLUESSAMPLE001.mp3" preload="auto"></audio>
                     <button class=" btn btn-default brn-lg" onclick="document.getElementById('sound1').play();">
                         <i class="fa fa-play-circle"></i> 
@@ -128,7 +144,8 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact Me</h2>
-                <p>Feel free to email me to book a gig, or to just say hello!</p>
+                <p class="english">Feel free to email me to book a gig, or to just say hello!</p>
+                <p class="japanese">メールアドレス</p>
                 <p><a href="mailto:bonzsax@bonzsax.com">bonzsax@bonzsax.com</a>
                 </p>
                 <!--<ul class="list-inline banner-social-buttons">
@@ -158,6 +175,7 @@
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.js"></script>
+    
 
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>

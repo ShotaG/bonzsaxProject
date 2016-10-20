@@ -183,3 +183,13 @@ function init() {
         icon: image
     });
 }
+
+$('#japanese').click(function() {
+    $('.japanese').show();
+    $('.english').hide();
+});
+
+$('#english').click(function() {
+    $('.english').show();
+    $('.japanese').hide();
+});
